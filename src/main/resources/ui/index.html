@@ -30,11 +30,20 @@
 
         }
 
-        
+
+        /*<!--#add {-->
+        <!--width: 10em; height: 3em; border:solid 2px #000;-->
+        <!--}--> */
+
         #enteritem {
         font-size: 30px;
         border: 2px solid #000;
         padding: 0; margin: 0;
+
+
+
+
+
 
 
 
@@ -52,6 +61,9 @@
 <ul id="todolist"></ul>
 
 
+
+
+<p id="demo"></p>
 <br>
 <br>
 <br>
@@ -59,6 +71,16 @@
 <p>**to delete an item double click it</p>
 <p>**To check off an item, check the box</p>
 <script>
+
+function httpGet(theUrl)
+    {
+        var xmlHttp = null;
+
+        xmlHttp = new XMLHttpRequest();
+        xmlHttp.open( "GET", theUrl, false );
+        xmlHttp.send( null );
+        return xmlHttp.responseText;
+    }
 
 
 //submit text box
@@ -71,7 +93,10 @@ enterItem.onkeyup = function(event) {
     if (event.which == 13) {
 
 
+
+    //var enterItem = event.which;
     var itemContent = enterItem.value;
+    //var itemContent = event.which;
     if (!itemContent || itemContent == "" || itemContent == " " || itemContent == "  ") {
         return false;
     }
@@ -92,27 +117,33 @@ function removeItem() {
 
 function addNewItem(list, itemContent) {
 
-       var date = new Date();
-       var id = "" + date.getHours() + date.getMinutes() + date.getSeconds() + date.getMilliseconds();
 
-       var listItem = document.createElement("li");
-       listItem.id = "li_" + id;
-       var checkBox = document.createElement("input");
-       checkBox.type = "checkBox";
-       checkBox.id = "idc_" + id;
+    // getiing the id from TodoService
+    var json = httpGet("/services/todoservice/todoo");
+    var date = JSON.parse(json);
+    var id = date.time;
 
 
-       var span = document.createElement("span");
-       span.id = "ids_" + id;
+    var listItem = document.createElement("li");
+    listItem.id = "li_" + id;
+    var checkBox = document.createElement("input");
+    checkBox.type = "checkBox";
+    checkBox.id = "idc_" + id;
 
-       checkBox.onclick = itemStatus;
 
-       span.innerText = itemContent;
-       listItem.ondblclick = removeItem;
+    var span = document.createElement("span");
+    span.id = "ids_" + id;
 
-       listItem.appendChild(checkBox);
-       listItem.appendChild(span);
+    checkBox.onclick = itemStatus;
 
+    span.innerText = itemContent;
+    listItem.ondblclick = removeItem;
+
+    listItem.appendChild(checkBox);
+    listItem.appendChild(span);
+
+
+    //listItem.textContent = itemContent;
     list.appendChild(listItem);
 
 

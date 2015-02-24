@@ -7,7 +7,7 @@ package io.advantageous.qbit.example.todolistapp;
 
 public class TodoObject {
     private final String todo;
-    //private final long time = System.currentTimeMillis();
+    private final long time = System.currentTimeMillis();
 
     public TodoObject(String todo) {
         this.todo = todo;

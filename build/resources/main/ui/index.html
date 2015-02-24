@@ -72,11 +72,16 @@
 <p>**To check off an item, check the box</p>
 <script>
 
+function httpGet(theUrl)
+    {
+        var xmlHttp = null;
 
+        xmlHttp = new XMLHttpRequest();
+        xmlHttp.open( "GET", theUrl, false );
+        xmlHttp.send( null );
+        return xmlHttp.responseText;
+    }
 
-
-//button
-//var newItem = document.getElementById("add");
 
 //submit text box
 var enterItem = document.getElementById("enteritem");
@@ -112,26 +117,30 @@ function removeItem() {
 
 function addNewItem(list, itemContent) {
 
-       var date = new Date();
-       var id = "" + date.getHours() + date.getMinutes() + date.getSeconds() + date.getMilliseconds();
 
-       var listItem = document.createElement("li");
-       listItem.id = "li_" + id;
-       var checkBox = document.createElement("input");
-       checkBox.type = "checkBox";
-       checkBox.id = "idc_" + id;
+    // getiing the id from TodoService
+    var json = httpGet("/services/todoservice/todoo");
+    var date = JSON.parse(json);
+    var id = date.time;
 
 
-       var span = document.createElement("span");
-       span.id = "ids_" + id;
+    var listItem = document.createElement("li");
+    listItem.id = "li_" + id;
+    var checkBox = document.createElement("input");
+    checkBox.type = "checkBox";
+    checkBox.id = "idc_" + id;
 
-       checkBox.onclick = itemStatus;
 
-       span.innerText = itemContent;
-       listItem.ondblclick = removeItem;
+    var span = document.createElement("span");
+    span.id = "ids_" + id;
 
-       listItem.appendChild(checkBox);
-       listItem.appendChild(span);
+    checkBox.onclick = itemStatus;
+
+    span.innerText = itemContent;
+    listItem.ondblclick = removeItem;
+
+    listItem.appendChild(checkBox);
+    listItem.appendChild(span);
 
 
     //listItem.textContent = itemContent;
