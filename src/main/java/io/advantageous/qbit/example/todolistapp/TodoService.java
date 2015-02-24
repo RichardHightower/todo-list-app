@@ -13,7 +13,7 @@ public class TodoService {
 
     @RequestMapping("/todoo")
     public TodoObject list() {
-        return new TodoObject("");
+        return new TodoObject();
     }
 
 }
