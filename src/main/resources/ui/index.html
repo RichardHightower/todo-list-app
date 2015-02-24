@@ -30,20 +30,11 @@
 
         }
 
-
-        /*<!--#add {-->
-        <!--width: 10em; height: 3em; border:solid 2px #000;-->
-        <!--}--> */
-
+        
         #enteritem {
         font-size: 30px;
         border: 2px solid #000;
         padding: 0; margin: 0;
-
-
-
-
-
 
 
 
@@ -61,9 +52,6 @@
 <ul id="todolist"></ul>
 
 
-
-
-<p id="demo"></p>
 <br>
 <br>
 <br>
@@ -72,11 +60,6 @@
 <p>**To check off an item, check the box</p>
 <script>
 
-
-
-
-//button
-//var newItem = document.getElementById("add");
 
 //submit text box
 var enterItem = document.getElementById("enteritem");
@@ -88,10 +71,7 @@ enterItem.onkeyup = function(event) {
     if (event.which == 13) {
 
 
-
-    //var enterItem = event.which;
     var itemContent = enterItem.value;
-    //var itemContent = event.which;
     if (!itemContent || itemContent == "" || itemContent == " " || itemContent == "  ") {
         return false;
     }
@@ -133,8 +113,6 @@ function addNewItem(list, itemContent) {
        listItem.appendChild(checkBox);
        listItem.appendChild(span);
 
-
-    //listItem.textContent = itemContent;
     list.appendChild(listItem);
 
 
