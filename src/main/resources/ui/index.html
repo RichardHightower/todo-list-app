@@ -60,6 +60,7 @@
 <p>**To check off an item, check the box</p>
 <script>
 
+//This function will enable you to call TodoService
 function httpGet(theUrl)
     {
         var xmlHttp = null;
@@ -77,7 +78,7 @@ enterItem.focus();
 
 enterItem.onkeyup = function(event) {
 
-// 13 represents the enter key.
+// 13 represents the ASCII dec number for the ENTER key.
     if (event.which == 13) {
 
     var itemContent = enterItem.value;
@@ -93,18 +94,18 @@ enterItem.onkeyup = function(event) {
         }
 }
 
-
+//to delete a listed item from the todo list
 function removeItem() {
-        //var listId = this.id.replace("li_", "");
+
         document.getElementById(this.id).style.display = "none";
 
     }
 
-
+// function to add a todo item
 function addNewItem(list, itemContent) {
 
 
-    // Getiing the id for the items listed from TodoService
+    // Calls TodoService to retrieve an object then retrieves the id number for the item listed
     var json = httpGet("/services/todoservice/todoo");
     var date = JSON.parse(json);
     var id = date.time;
@@ -134,6 +135,7 @@ function addNewItem(list, itemContent) {
 
 }
 
+//changes the status of the item listed by drawing a line through it when the box is checked
 function itemStatus() {
 
     var checkboxId = this.id.replace("idc_", "");

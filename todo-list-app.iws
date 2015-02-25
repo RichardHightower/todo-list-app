@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0154e9ef-8177-4ad5-bb45-8dad1dd6caad" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/ui/todo-app.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/advantageous/qbit/example/todolistapp/TodoObject.java" afterPath="$PROJECT_DIR$/src/main/java/io/advantageous/qbit/example/todolistapp/TodoObject.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/ui/index.html" afterPath="$PROJECT_DIR$/src/main/resources/ui/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todo-list-app.ipr" afterPath="$PROJECT_DIR$/todo-list-app.ipr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todo-list-app.iws" afterPath="$PROJECT_DIR$/todo-list-app.iws" />
     </list>
     <ignored path="todo-list-app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,10 +39,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TodoRestServer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TodoRestServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/advantageous/qbit/example/todolistapp/TodoRestServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45676276" vertical-offset="199" max-vertical-offset="885">
+            <state vertical-scroll-proportion="0.0" vertical-offset="199" max-vertical-offset="885">
               <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
@@ -57,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/io/advantageous/qbit/example/todolistapp/TodoObject.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <caret line="12" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -67,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/io/advantageous/qbit/example/todolistapp/TodoService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+              <caret line="19" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="e#261#262#0" expanded="true" />
                 <element signature="e#300#301#0" expanded="true" />
@@ -76,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/ui/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-85.625" vertical-offset="0" max-vertical-offset="2460">
-              <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.3676815" vertical-offset="1898" max-vertical-offset="2490">
+              <caret line="137" column="92" selection-start-line="137" selection-start-column="92" selection-end-line="137" selection-end-column="92" />
               <folding />
             </state>
           </provider>
@@ -373,8 +369,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="428" />
-    <option name="y" value="139" />
+    <option name="x" value="25" />
+    <option name="y" value="71" />
     <option name="width" value="1374" />
     <option name="height" value="783" />
   </component>
@@ -728,7 +724,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="428" y="139" width="1374" height="783" extended-state="0" />
+    <frame x="25" y="71" width="1374" height="783" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -933,10 +929,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/advantageous/qbit/example/todolistapp/TodoRestServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="199" max-vertical-offset="885">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/advantageous/qbit/example/todolistapp/TodoObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="12" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -944,7 +948,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/io/advantageous/qbit/example/todolistapp/TodoService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <caret line="19" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="e#261#262#0" expanded="true" />
             <element signature="e#300#301#0" expanded="true" />
@@ -954,16 +958,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/ui/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-85.625" vertical-offset="0" max-vertical-offset="2460">
-          <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/advantageous/qbit/example/todolistapp/TodoRestServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45676276" vertical-offset="199" max-vertical-offset="885">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.3676815" vertical-offset="1898" max-vertical-offset="2490">
+          <caret line="137" column="92" selection-start-line="137" selection-start-column="92" selection-end-line="137" selection-end-column="92" />
           <folding />
         </state>
       </provider>
