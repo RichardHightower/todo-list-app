@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0154e9ef-8177-4ad5-bb45-8dad1dd6caad" name="Default" comment="">
+<<<<<<< HEAD
       <change type="DELETED" beforePath="$PROJECT_DIR$/todo-list-app.iml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todo-list-app.iws" afterPath="$PROJECT_DIR$/todo-list-app.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todo-list-app.ipr" afterPath="$PROJECT_DIR$/todo-list-app.ipr" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/ui/index.html" afterPath="$PROJECT_DIR$/src/main/resources/ui/index.html" />
+>>>>>>> 4ce8959469dcc5a3678e4f4a53b11332b2c731ac
     </list>
     <ignored path="todo-list-app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,8 +38,13 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="-13.24" vertical-offset="14" max-vertical-offset="675">
               <caret line="23" column="75" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="75" />
+=======
+            <state vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="675">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+>>>>>>> 4ce8959469dcc5a3678e4f4a53b11332b2c731ac
               <folding />
             </state>
           </provider>
@@ -44,8 +53,13 @@
       <file leaf-file-name="TodoRestServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/advantageous/qbit/example/todolistapp/TodoRestServer.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
               <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+=======
+            <state vertical-scroll-proportion="0.0" vertical-offset="199" max-vertical-offset="885">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+>>>>>>> 4ce8959469dcc5a3678e4f4a53b11332b2c731ac
               <folding />
             </state>
           </provider>
@@ -54,7 +68,11 @@
       <file leaf-file-name="TodoObject.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/advantageous/qbit/example/todolistapp/TodoObject.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="315">
+=======
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+>>>>>>> 4ce8959469dcc5a3678e4f4a53b11332b2c731ac
               <caret line="12" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
@@ -64,11 +82,19 @@
       <file leaf-file-name="TodoService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/advantageous/qbit/example/todolistapp/TodoService.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="345">
               <caret line="19" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="e#261#262#0" expanded="false" />
                 <element signature="e#300#301#0" expanded="false" />
+=======
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+              <caret line="19" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+>>>>>>> 4ce8959469dcc5a3678e4f4a53b11332b2c731ac
               </folding>
             </state>
           </provider>
@@ -77,8 +103,13 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/ui/index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="1.2742718" vertical-offset="540" max-vertical-offset="2490">
               <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+=======
+            <state vertical-scroll-proportion="0.3676815" vertical-offset="1898" max-vertical-offset="2490">
+              <caret line="137" column="92" selection-start-line="137" selection-start-column="92" selection-end-line="137" selection-end-column="92" />
+>>>>>>> 4ce8959469dcc5a3678e4f4a53b11332b2c731ac
               <folding />
             </state>
           </provider>
@@ -237,7 +268,11 @@
         <entry key="$PROJECT_DIR$/../hello" value="2848412224000" />
         <entry key="$PROJECT_DIR$/../simpel-rest-server" value="2847288908000" />
         <entry key="$PROJECT_DIR$/../simple-rest-server" value="2846758355000" />
+<<<<<<< HEAD
         <entry key="$PROJECT_DIR$" value="2851156876000" />
+=======
+        <entry key="$PROJECT_DIR$" value="2849262889000" />
+>>>>>>> 4ce8959469dcc5a3678e4f4a53b11332b2c731ac
         <entry key="$PROJECT_DIR$/../todo-service" value="2844115048000" />
         <entry key="$PROJECT_DIR$/../todo-service-websocket-client" value="2844115048000" />
         <entry key="$USER_HOME$/expamples/qbit/todo-service" value="2841684243000" />
@@ -260,28 +295,51 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
+<<<<<<< HEAD
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.advantageous.qbit/qbit-vertx/0.7.2/c42c46af09ad64580a215b06cad9d454b20e4c95/qbit-vertx-0.7.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.advantageous.qbit/qbit-vertx/0.7.2/d3efcedb09811affaad49a2103ff33bdc92a3663/qbit-vertx-0.7.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.advantageous.qbit/qbit-boon/0.7.2/49533b11c9b0ba575d0118ebe3b948e067f44b17/qbit-boon-0.7.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.advantageous.qbit/qbit-boon/0.7.2/efbdb62f748d53289ce5158b8e59b33b9eee0263/qbit-boon-0.7.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.advantageous.qbit/qbit-core/0.7.2/932e1752d91470862ab271de2bb827ca00c123cc/qbit-core-0.7.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.advantageous.qbit/qbit-core/0.7.2/9b5570a048808e860ac75f97252b4f365a86bee8/qbit-core-0.7.2.jar" />
+=======
+                            <option value="$MAVEN_REPOSITORY$/io/advantageous/qbit/qbit-vertx/0.5.2-SNAPSHOT/qbit-vertx-0.5.2-SNAPSHOT-sources.jar" />
+                            <option value="$MAVEN_REPOSITORY$/io/advantageous/qbit/qbit-vertx/0.5.2-SNAPSHOT/qbit-vertx-0.5.2-SNAPSHOT.jar" />
+                            <option value="$MAVEN_REPOSITORY$/io/advantageous/qbit/qbit-boon/0.5.2-SNAPSHOT/qbit-boon-0.5.2-SNAPSHOT-sources.jar" />
+                            <option value="$MAVEN_REPOSITORY$/io/advantageous/qbit/qbit-boon/0.5.2-SNAPSHOT/qbit-boon-0.5.2-SNAPSHOT.jar" />
+                            <option value="$MAVEN_REPOSITORY$/io/advantageous/qbit/qbit-core/0.5.2-SNAPSHOT/qbit-core-0.5.2-SNAPSHOT-sources.jar" />
+                            <option value="$MAVEN_REPOSITORY$/io/advantageous/qbit/qbit-core/0.5.2-SNAPSHOT/qbit-core-0.5.2-SNAPSHOT.jar" />
+>>>>>>> 4ce8959469dcc5a3678e4f4a53b11332b2c731ac
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.10/4d2725efe68b9943ba0deaf334bb27116ca6b687/slf4j-api-1.7.10-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.10/5b338f206827d88acd890739f400a9b7664e5984/slf4j-api-1.7.10.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.2/decd76e2c461157804473468bbdc6b8eb6d6121b/logback-classic-1.1.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.2/b316e9737eea25e9ddd6d88eaeee76878045c6b2/logback-classic-1.1.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-core/2.1.1/1ea5c4b0836d198d7ea1893d4fb0b42b2ba70532/vertx-core-2.1.1-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-core/2.1.1/8b17cc1a79db4edfd067542cbd5552b45a274143/vertx-core-2.1.1.jar" />
+<<<<<<< HEAD
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-platform/2.1.1/3c3a1ca126e363054b4c224783a6f0eafe1800cd/vertx-platform-2.1.1-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-platform/2.1.1/bdcd708592bf2de9f3a16f2185220bb55204f09d/vertx-platform-2.1.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.advantageous.qbit/boon/0.7.2/7647a71572f6616bc77c332a15eee4624288da2d/boon-0.7.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.advantageous.qbit/boon/0.7.2/4c925da5eddac7382427887fae628c193e13ef62/boon-0.7.2.jar" />
+=======
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/lang-groovy/2.1.1/5f200611d7ec230f47c211509c1ae498789c51e7/lang-groovy-2.1.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/lang-groovy/2.1.1/706bf9382ce445a8ffd46a41c229c4fcd592e545/lang-groovy-2.1.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-platform/2.1.1/3c3a1ca126e363054b4c224783a6f0eafe1800cd/vertx-platform-2.1.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-platform/2.1.1/bdcd708592bf2de9f3a16f2185220bb55204f09d/vertx-platform-2.1.1.jar" />
+                            <option value="$MAVEN_REPOSITORY$/io/fastjson/boon/0.31-SNAPSHOT/boon-0.31-SNAPSHOT-sources.jar" />
+                            <option value="$MAVEN_REPOSITORY$/io/fastjson/boon/0.31-SNAPSHOT/boon-0.31-SNAPSHOT.jar" />
+>>>>>>> 4ce8959469dcc5a3678e4f4a53b11332b2c731ac
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.2/502e1c764542fe747896c1dc04f023acfe0e5cbc/logback-core-1.1.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.2/2d23694879c2c12f125dac5076bdfd5d771cc4cb/logback-core-1.1.2.jar" />
                             <option value="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.2.2/jackson-databind-2.2.2.jar" />
                             <option value="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.2.2/jackson-core-2.2.2.jar" />
                             <option value="$MAVEN_REPOSITORY$/log4j/log4j/1.2.16/log4j-1.2.16.jar" />
                             <option value="$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.20.Final/netty-all-4.0.20.Final.jar" />
+<<<<<<< HEAD
+=======
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/2.3.3/e9f92799cc8fe8afa7918cdb34a547bcc593701d/groovy-all-2.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/2.3.3/2ca73750564253964c70b396b6b5fda54a743f04/groovy-all-2.3.3.jar" />
+>>>>>>> 4ce8959469dcc5a3678e4f4a53b11332b2c731ac
                             <option value="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.2.2/jackson-annotations-2.2.2.jar" />
                           </list>
                         </option>
@@ -357,11 +415,16 @@
         <option value="$PROJECT_DIR$/src/main/java/io/advantageous/qbit/example/todolistaoo/TodoRestServer.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/resources/ui/todo-app.js" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/src/main/java/io/advantageous/qbit/example/todolistapp/TodoRestServer.java" />
+>>>>>>> 4ce8959469dcc5a3678e4f4a53b11332b2c731ac
         <option value="$PROJECT_DIR$/src/main/resources/ui/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/ui/form.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/io/advantageous/qbit/example/todolistapp/TodoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/advantageous/qbit/example/todolistapp/TodoObject.java" />
         <option value="$PROJECT_DIR$/src/main/resources/ui/index.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/java/io/advantageous/qbit/example/todolistapp/TodoRestServer.java" />
       </list>
     </option>
@@ -372,6 +435,14 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="551" />
     <option name="y" value="27" />
+=======
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="25" />
+    <option name="y" value="71" />
+>>>>>>> 4ce8959469dcc5a3678e4f4a53b11332b2c731ac
     <option name="width" value="1374" />
     <option name="height" value="783" />
   </component>
@@ -398,6 +469,7 @@
       <sortByType />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -412,6 +484,9 @@
           </PATH>
         </subPane>
       </pane>
+=======
+      <pane id="Scope" />
+>>>>>>> 4ce8959469dcc5a3678e4f4a53b11332b2c731ac
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -419,10 +494,13 @@
               <option name="myItemId" value="todo-list-app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+<<<<<<< HEAD
             <PATH_ELEMENT>
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
+=======
+>>>>>>> 4ce8959469dcc5a3678e4f4a53b11332b2c731ac
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -502,7 +580,24 @@
           </PATH>
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todo-list-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todo-list-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+>>>>>>> 4ce8959469dcc5a3678e4f4a53b11332b2c731ac
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -515,7 +610,11 @@
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
+<<<<<<< HEAD
     <property name="project.structure.side.proportion" value="0.2" />
+=======
+    <property name="project.structure.side.proportion" value="0.0" />
+>>>>>>> 4ce8959469dcc5a3678e4f4a53b11332b2c731ac
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
   </component>
@@ -609,6 +708,22 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
+<<<<<<< HEAD
+=======
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+>>>>>>> 4ce8959469dcc5a3678e4f4a53b11332b2c731ac
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -637,6 +752,7 @@
       <listeners />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -650,6 +766,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
+=======
+>>>>>>> 4ce8959469dcc5a3678e4f4a53b11332b2c731ac
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -729,8 +847,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="551" y="27" width="1374" height="783" extended-state="0" />
     <editor active="false" />
+=======
+    <frame x="25" y="71" width="1374" height="783" extended-state="0" />
+    <editor active="true" />
+>>>>>>> 4ce8959469dcc5a3678e4f4a53b11332b2c731ac
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -747,11 +870,19 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295796" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24924925" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32850942" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496361" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32913166" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> 4ce8959469dcc5a3678e4f4a53b11332b2c731ac
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -787,6 +918,7 @@
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="675">
+<<<<<<< HEAD
           <caret line="23" column="75" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="75" />
           <folding />
         </state>
@@ -1002,6 +1134,8 @@
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="675">
+=======
+>>>>>>> 4ce8959469dcc5a3678e4f4a53b11332b2c731ac
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
@@ -1028,8 +1162,13 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="375">
           <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
           <folding>
+<<<<<<< HEAD
             <element signature="e#261#262#0" expanded="false" />
             <element signature="e#300#301#0" expanded="false" />
+=======
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+>>>>>>> 4ce8959469dcc5a3678e4f4a53b11332b2c731ac
           </folding>
         </state>
       </provider>
@@ -1071,8 +1210,13 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="390">
           <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
           <folding>
+<<<<<<< HEAD
             <element signature="e#261#262#0" expanded="false" />
             <element signature="e#300#301#0" expanded="false" />
+=======
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+>>>>>>> 4ce8959469dcc5a3678e4f4a53b11332b2c731ac
           </folding>
         </state>
       </provider>
@@ -1125,10 +1269,25 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="675">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 4ce8959469dcc5a3678e4f4a53b11332b2c731ac
     <entry file="jar://$MAVEN_REPOSITORY$/io/advantageous/qbit/qbit-vertx/0.5.2-SNAPSHOT/qbit-vertx-0.5.2-SNAPSHOT.jar!/io/advantageous/qbit/http/server/HttpServer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17605634" vertical-offset="15" max-vertical-offset="465">
           <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> 4ce8959469dcc5a3678e4f4a53b11332b2c731ac
         </state>
       </provider>
     </entry>
@@ -1140,6 +1299,17 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/advantageous/qbit/example/todolistapp/TodoRestServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="199" max-vertical-offset="885">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 4ce8959469dcc5a3678e4f4a53b11332b2c731ac
     <entry file="file://$PROJECT_DIR$/src/main/java/io/advantageous/qbit/example/todolistapp/TodoObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
@@ -1153,12 +1323,18 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
           <caret line="19" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
+<<<<<<< HEAD
             <element signature="e#261#262#0" expanded="false" />
             <element signature="e#300#301#0" expanded="false" />
+=======
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+>>>>>>> 4ce8959469dcc5a3678e4f4a53b11332b2c731ac
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.24" vertical-offset="14" max-vertical-offset="675">
@@ -1179,6 +1355,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.2742718" vertical-offset="540" max-vertical-offset="2490">
           <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ui/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3676815" vertical-offset="1898" max-vertical-offset="2490">
+          <caret line="137" column="92" selection-start-line="137" selection-start-column="92" selection-end-line="137" selection-end-column="92" />
+>>>>>>> 4ce8959469dcc5a3678e4f4a53b11332b2c731ac
           <folding />
         </state>
       </provider>

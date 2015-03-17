@@ -7,7 +7,11 @@ import io.advantageous.qbit.system.QBitSystemManager;
 
 import static io.advantageous.qbit.http.server.HttpServerBuilder.httpServerBuilder;
 import static io.advantageous.qbit.server.ServiceServerBuilder.serviceServerBuilder;
+<<<<<<< HEAD
 import static io.advantageous.boon.Boon.resource;
+=======
+import static org.boon.Boon.resource;
+>>>>>>> 4ce8959469dcc5a3678e4f4a53b11332b2c731ac
 
 /**
  * Created by rhightower on 2/9/15.
@@ -35,7 +39,11 @@ public class TodoRestServer {
             /* read the page from the file system or classpath. */
             final String todoWebPage = resource(HTML_PAGE);
             /* Send the HTML file out to the browser. */
+<<<<<<< HEAD
             httpRequest.getReceiver().response(200, "text/html", todoWebPage);
+=======
+            httpRequest.getResponse().response(200, "text/html", todoWebPage);
+>>>>>>> 4ce8959469dcc5a3678e4f4a53b11332b2c731ac
             return false;
         });
 
