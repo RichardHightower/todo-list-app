@@ -21,15 +21,9 @@ mainClassName = "io.advantageous.qbit.example.todolistapp.TodoRestServer"
 
 dependencies {
 
-<<<<<<< HEAD
     compile group: 'io.advantageous.qbit', name: 'qbit-vertx', version: '0.7.2'
     compile group: 'io.advantageous.qbit', name: 'qbit-boon', version: '0.7.2'
     compile group: 'io.advantageous.qbit', name: 'qbit-core', version: '0.7.2'
-=======
-    compile group: 'io.advantageous.qbit', name: 'qbit-vertx', version: '0.5.2-SNAPSHOT'
-    compile group: 'io.advantageous.qbit', name: 'qbit-boon', version: '0.5.2-SNAPSHOT'
-    compile group: 'io.advantageous.qbit', name: 'qbit-core', version: '0.5.2-SNAPSHOT'
->>>>>>> 4ce8959469dcc5a3678e4f4a53b11332b2c731ac
 
     compile "org.slf4j:slf4j-api:[1.7,1.8)"
     compile 'ch.qos.logback:logback-classic:1.1.2'
@@ -43,3 +37,8 @@ idea {
         languageLevel = '1.8'
     }
 }
+
+
+
+
+
