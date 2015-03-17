@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>TODO list example with Qbit</title>
+
+    <style>
+
+        body {
+        background-color: #D8D8D8;
+        }
+        h1 {
+        text-align: center;
+        }
+
+        ul {
+        list-style-type: none; padding: 20px; margin: 0px;
+        }
+        li {
+        background: #CCFF00; font-size: 30px; border: 2px solid #000; padding: 10px 20px; color: #000; cursor: cell;
+        }
+
+
+        li span {
+        padding: 10px; cursor: cell;
+        }
+
+        .check {
+        text-decoration: line-through; font-weight: bold; color:#000;
+
+        }
+
+        #enteritem {
+        font-size: 30px;
+        border: 2px solid #000;
+        padding: 0; margin: 0;
+
+
+    </style>
+
+
+
+</head>
+<body>
+<p><h1>TODO LIST APP EXAMPLE WITH QBIT</h1></p>
+
+
+<p><label for="enteritem"><h3>Enter your item: </h3></label>   <input type="text" id="enteritem" name="enteritem"/></p>
+
+
+
+<ul id="todolist"></ul>
+
+
+<br>
+<br>
+<br>
+<p>**To add an item type in the box and hit enter</p>
+<p>**to delete an item double click it</p>
+<p>**To check off an item, check the box</p>
+<script>
+
+//This function will enable you to call TodoService
+function httpGet(theUrl)
+    {
+        var xmlHttp = null;
+
+        xmlHttp = new XMLHttpRequest();
+        xmlHttp.open( "GET", theUrl, false );
+        xmlHttp.send( null );
+        return xmlHttp.responseText;
+    }
+
+
+//submit text box
+var enterItem = document.getElementById("enteritem");
+enterItem.focus();
+
+enterItem.onkeyup = function(event) {
+
+// 13 represents the ASCII dec number for the ENTER key.
+    if (event.which == 13) {
+
+    var itemContent = enterItem.value;
+
+
+    if (!itemContent || itemContent == "" || itemContent == " " || itemContent == "  ") {
+        return false;
+    }
+    addNewItem(document.getElementById("todolist"), itemContent);
+
+    enterItem.focus();
+    enterItem.select();
+        }
+}
+
+//to delete a listed item from the todo list
+function removeItem() {
+
+        document.getElementById(this.id).style.display = "none";
+
+    }
+
+// function to add a todo item
+function addNewItem(list, itemContent) {
+
+
+    // Calls TodoService to retrieve an object then retrieves the id number for the item listed
+    var json = httpGet("/services/todoservice/todoo");
+    var date = JSON.parse(json);
+    var id = date.time;
+
+
+    var listItem = document.createElement("li");
+    listItem.id = "li_" + id;
+    var checkBox = document.createElement("input");
+    checkBox.type = "checkBox";
+    checkBox.id = "idc_" + id;
+
+
+    var span = document.createElement("span");
+    span.id = "ids_" + id;
+
+    checkBox.onclick = itemStatus;
+
+    span.innerText = itemContent;
+    listItem.ondblclick = removeItem;
+
+    listItem.appendChild(checkBox);
+    listItem.appendChild(span);
+
+
+    list.appendChild(listItem);
+
+
+}
+
+//changes the status of the item listed by drawing a line through it when the box is checked
+function itemStatus() {
+
+    var checkboxId = this.id.replace("idc_", "");
+    var itemContent = document.getElementById("ids_" + checkboxId);
+
+    if (this.checked){
+
+        itemContent.className = "check";
+
+    }else {
+         itemContent.className = "";
+
+
+    }
+
+
+}
+</script>
+
+
+</body>
+</html>
