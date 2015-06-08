@@ -1,18 +1,31 @@
 package io.advantageous.qbit.example.todolistapp;
 
 
+import io.advantageous.boon.core.IO;
+import io.advantageous.boon.core.Str;
 import io.advantageous.qbit.http.server.HttpServer;
-import io.advantageous.qbit.server.ServiceServer;
+import io.advantageous.qbit.server.EndpointServerBuilder;
+import io.advantageous.qbit.server.ServiceEndpointServer;
 import io.advantageous.qbit.system.QBitSystemManager;
 
 import static io.advantageous.qbit.http.server.HttpServerBuilder.httpServerBuilder;
-import static io.advantageous.qbit.server.ServiceServerBuilder.serviceServerBuilder;
-import static io.advantageous.boon.Boon.resource;
 
 /**
  * Created by rhightower on 2/9/15.
  */
 public class TodoRestServer {
+
+    private static String resource(String path) {
+        if (!IO.exists(IO.path(path))) {
+            path = add(new String[]{"classpath:/", path});
+        }
+        String str = IO.read(path);
+        return str;
+    }
+
+    public static String add(String... args) {
+        return Str.add(args);
+    }
 
 
     public static final String HTML_PAGE = "/ui/index.html";
@@ -41,13 +54,15 @@ public class TodoRestServer {
 
 
         /* Start the service. */
-        final ServiceServer serviceServer = serviceServerBuilder().setSystemManager(systemManager)
+        final ServiceEndpointServer serviceServer = new EndpointServerBuilder().setSystemManager(systemManager)
                 .setHttpServer(httpServer).build().initServices(new TodoService()).startServer();
 
         /* Wait for the service to shutdown. */
         systemManager.waitForShutdown();
 
     }
+
+
 
 
 }
